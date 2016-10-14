@@ -15,7 +15,10 @@
     "autoload": {
         "psr-0": {
             "Album\\": "src/"
-        }
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     },
     "extra": {
         "branch-alias": {
