@@ -8,13 +8,18 @@
     "authors": [
         {"name": "Zcms", "email": "zcms@gmail.com", "role": "maintainer, developer", "homepage": ""}
     ],
-
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3"
     },
     "autoload": {
-      "psr-4": {
-        "Album\\": "module/Album/src/"
-      }
+        "psr-0": {
+            "Album\\": "src/"
+        },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    }
     }
 }
