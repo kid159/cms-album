@@ -14,10 +14,7 @@
     },
     "autoload": {
       "psr-0": {
-        "module\\Album\\": "module/Album/src/"
-      },
-      "classmap": [
-        "./module/Album/Module.php"
-      ]
+        "Album\\": "module/Album/src/"
+      }
     }
 }
